@@ -71,7 +71,7 @@ Visit the website at [Hamster Kombat KEY Generator](https://onlyxdaddy.github.io
 
 ## Credits
 
-This tool is developed by **Sam Richard**.
+This tool is developed by **𝘖𝘕𝘓𝘠𝘹𝘋𝘈𝘋𝘠**.
 
 ## Disclaimer
 
