@@ -1,11 +1,8 @@
 # Hamster Kombat Key Generator
 
 ## How To Generate Keys (Easy)
-### Method 1
-Generate using our [Telegram Bot Link](http://telegram.me/Hamster_Kombat_Keys_Gen_Bot)
-
 ### Method 2
-Generate Using Our [Website](https://sam-richard-007.github.io/Hamster-Kombat-Key-Generator)
+Generate Using Our [Website]((https://onlyxdaddy.github.io/HAMSTERKEYS_GENERATOR/))
 
 ## Description
 
@@ -18,7 +15,7 @@ The Hamster Kombat Key Generator provides a simple way to obtain promo codes for
 - Added support for three new games: Chain Cube 2048, My Clone Army, and Train Miner.
 - Improved responsive design.
 - Enhanced progress tracking with logs.
-- You can reach out to me via my [Telegram](https://telegram.me/Sam_Dm_bot).
+- You can reach out to me via my [Telegram](https://telegram.me/onlyxdaddy).
 
 ## Features
 
@@ -62,7 +59,7 @@ The Hamster Kombat Key Generator provides a simple way to obtain promo codes for
 
 ## Contact
 
-For any questions or support, you can reach out to me via my [Telegram](https://telegram.me/Sam_Dm_bot).
+For any questions or support, you can reach out to me via my [Telegram](https://telegram.me/onlyxdaddy).
 
 ## Star the Repository
 
@@ -70,7 +67,7 @@ If you found this project useful, please consider giving it a star on GitHub!
 
 ## Website
 
-Visit the website at [Hamster Kombat KEY Generator](https://sam-richard-007.github.io/Hamster-Kombat-Key-Generator/)
+Visit the website at [Hamster Kombat KEY Generator](https://onlyxdaddy.github.io/HAMSTERKEYS_GENERATOR/)
 
 ## Credits
 
