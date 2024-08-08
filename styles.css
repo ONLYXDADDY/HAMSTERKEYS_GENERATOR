@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #0a0a0a;
+    background-color: #1500ff;
     color: #333;
     display: flex;
     justify-content: center;
@@ -41,7 +41,7 @@ select {
 }
 
 button {
-    background-color: #0a2aab;
+    background-color: #000000;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -53,7 +53,7 @@ button {
 
 
 button:hover {
-    background-color: #0a2aab;
+    background-color: #000000;
 }
 
 .hidden {
@@ -71,7 +71,7 @@ button:hover {
 
 .progress-bar div {
     height: 100%;
-    background-color: #007bff;
+    background-color: #eb3b3b;
     width: 0;
     transition: width 0.5s;
 }
@@ -97,7 +97,7 @@ button:hover {
 }
 
 .copyKeyBtn {
-    background-color: #a728a1;
+    background-color: #47439c;
     border: none;
     padding: 10px 20px;
     color: white;
@@ -107,7 +107,7 @@ button:hover {
 }
 
 .copyKeyBtn:hover {
-    background-color: #a728a1;
+    background-color: #47439c;
 }
 
 .footer {
@@ -117,9 +117,10 @@ button:hover {
 
 #copyStatus {
     margin-top: 10px;
-    color: pink;
+    color: Purple;
 }
 
 #telegramChannelBtn{
     background-color: black;
 }
+Purple
