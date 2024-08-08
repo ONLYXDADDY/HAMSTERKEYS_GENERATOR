@@ -1,7 +1,7 @@
 # Hamster Kombat Key Generator
 
 ## How To Generate Keys (Easy)
-### Method 2
+### Method
 Generate Using Our [Website]((https://onlyxdaddy.github.io/HAMSTERKEYS_GENERATOR/))
 
 ## Description
