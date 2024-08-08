@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #1500ff;
+    background-color: #727272;
     color: #333;
     display: flex;
     justify-content: center;
@@ -71,7 +71,7 @@ button:hover {
 
 .progress-bar div {
     height: 100%;
-    background-color: #eb3b3b;
+    background-color: #474745;
     width: 0;
     transition: width 0.5s;
 }
