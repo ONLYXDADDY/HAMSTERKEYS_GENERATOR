@@ -268,11 +268,11 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    document.getElementById('DEVELOPER').addEventListener('click', () => {
-        window.open('https://telegram.me/onlyxdaddy', '_blank');
+    document.getElementById('creatorChannelBtn').addEventListener('click', () => {
+        window.open('https://telegram.me/Sam_Dm_bot', '_blank');
     });
 
     telegramChannelBtn.addEventListener('click', () => {
-        window.open('https://telegram.me/ONLYXCODING', '_blank');
+        window.open('https://telegram.me/Insta_Buy_Follower', '_blank');
     });
 });
