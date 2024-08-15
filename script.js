@@ -230,7 +230,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     DEVELOPER CHANNEL.addEventListener('click', () => {
-        window.open('https://t.me/onlyxcoding', '_blank');
+        window.open('support @ONLYXDADDY', '_blank');
     });
 
     const generateClientId = () => {
