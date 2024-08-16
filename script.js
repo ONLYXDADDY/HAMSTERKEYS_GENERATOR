@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const EVENTS_DELAY = 16000;
+    const EVENTS_DELAY = 8000;
     const MAX_KEYS_PER_GAME_PER_DAY = 10;
 
     const games = {
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-    const delayRandom = () => Math.random() / 3 + 1;
+    const delayRandom = () => Math.random() / 9 + 1;
 
     initializeLocalStorage();
 
@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         progressBar.style.width = '0%';
         progressText.innerText = '0%';
-        progressLog.innerText = 'Starting... \n PLEASE WAIT';
+        progressLog.innerText = 'STARTING... \n PLEASE WAIT';
         progressContainer.classList.remove('hidden');
         keyContainer.classList.add('hidden');
         generatedKeysTitle.classList.add('hidden');
