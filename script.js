@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const EVENTS_DELAY = 12000;
+    const EVENTS_DELAY = 20000 / 1000  # converting milliseconds to seconds;
     const MAX_KEYS_PER_GAME_PER_DAY = 10;
 
     const games = {
@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         progressBar.style.width = '0%';
         progressText.innerText = '0%';
-        progressLog.innerText = 'Starting... \n Please wait It may take upto 1 min to Login';
+        progressLog.innerText = 'Starting... \n Please wait 1 minute';
         progressContainer.classList.remove('hidden');
         keyContainer.classList.add('hidden');
         generatedKeysTitle.classList.add('hidden');
