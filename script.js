@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const EVENTS_DELAY = 17000;
+    const EVENTS_DELAY = 16000;
     const MAX_KEYS_PER_GAME_PER_DAY = 10;
 
     const games = {
@@ -27,6 +27,11 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'MergeAway',
             appToken: '8d1cc2ad-e097-4b86-90ef-7a27e19fb833',
             promoId: 'dc128d28-c45b-411c-98ff-ac7726fbaea4',
+        },
+        6: {
+    name: 'Twerk Race 3D',
+    appToken: '61308365-9d16-4040-8bb0-2f4a4c69074c',
+    promoId: '61308365-9d16-4040-8bb0-2f4a4c69074c'
         }
     };
 
@@ -163,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         progressBar.style.width = '0%';
         progressText.innerText = '0%';
-        progressLog.innerText = 'Starting... \n Please wait It may take upto 1 min to Login';
+        progressLog.innerText = 'Starting... \n PLEASE WAIT';
         progressContainer.classList.remove('hidden');
         keyContainer.classList.add('hidden');
         generatedKeysTitle.classList.add('hidden');
