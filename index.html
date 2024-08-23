@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Promo Code Generator</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 </head>
 <body>
     <div class="container">
@@ -17,11 +18,29 @@
                 <option value="3">My Clone Army</option>
                 <option value="4">Train Miner</option>
                 <option value="5">MergeAway</option>
-                <option value="6">Twerk Race</option>
-                <option value="7">Polysphere [NEW]</option>
+                <option value="6">Twerk Race </option>
+                <option value="7">Polysphere </option>
+                <option value="8">Mow and Trim[NEW]</option>
+                <option value="9">Mud Racing[NEW]</option>
 
             </select>
         </div>
+
+        <div id="google_translate_element"></div>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({
+                    pageLanguage: 'en', 
+                    includedLanguages: 'en,hi,ta,ru,id,ha,pt,persiran', 
+                    layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                }, 'google_translate_element');
+            }
+            
+        </script>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        
+
+        
         <div class="form-group">
             <label id="keyCountLabel" for="keyCountSelect">Number of keys:</label>
             <select id="keyCountSelect">
@@ -33,11 +52,6 @@
             </select>
         </div>
         <button id="startBtn">Generate Keys</button>
-
-        <label>
-            <input type="checkbox" id="logCheckbox"> Enable Logs
-        </label>
-        <textarea id="logArea" rows="3" readonly style="width: 100%; resize: none; font-size: 12px; display: none;"></textarea>
         
         <div id="progressContainer" class="hidden">
             <div class="progress-bar">
@@ -54,12 +68,20 @@
             <div id="keysList"></div>
             <button id="copyAllBtn" class="hidden">Copy All Keys</button>
             <div id="copyStatus" class="hidden">Copied!</div>
-            <button id="generateMoreBtn">Generate More Keys</button>
+            <!-- <button id="generateMoreBtn">Generate More Keys</button> -->
         </div>
+
+
+        <label>
+            <input type="checkbox" id="logCheckbox"> Enable Logs
+        </label>
+        <textarea id="logArea" rows="3" readonly style="width: 100%; resize: none; font-size: 12px; display: none;"></textarea>
+
         <div class="mycodes">
             <p>
                 The Key Generation may take upto 10 mins<br>
-                If you feel its not working then <a href="https://telegram.me/onlyxcoding">Contact Creator</a>
+                If you feel its not working then <a href="https://telegram.me/onlyxdaddy">Contact Creator</a>
+            </p>
         </div>
         <div class="footer">
             <p>OWNER: This tool is for educational purposes | USE IT RESPONSIBLY
@@ -71,4 +93,4 @@
     <script src="script.js"></script>
 </body>
 
-</html>s
+    </html>
