@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const MAX_KEYS_PER_GAME_PER_DAY = 13;
     const games = {
         1: {
             name: 'Riding Extreme 3D',
