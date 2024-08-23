@@ -314,6 +314,12 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             document.body.removeChild(textArea);
+            document.getElementById('creatorChannelBtn').addEventListener('click', () => {
+        window.open('https://telegram.me/onlyxdaddy', '_blank');
+    });
+
+    telegramChannelBtn.addEventListener('click', () => {
+        window.open('https://telegram.me/onlyxcoding', '_blank');
         }
     };
 });
