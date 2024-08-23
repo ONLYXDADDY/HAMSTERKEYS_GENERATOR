@@ -83,6 +83,22 @@ document.addEventListener('DOMContentLoaded', () => {
     const copyStatus = document.getElementById('copyStatus');
     const generateMoreBtn = document.getElementById('generateMoreBtn');
     const sourceCode = document.getElementById('sourceCode');
+   
+    const initializeLocalStorage = () => {
+
+        const now = new Date().toISOString().split('T')[0];
+
+        Object.values(games).forEach(game => {
+
+            const storageKey = `keys_generated_${game.name}`;
+
+            const storedData = JSON.parse(localStorage.getItem(storageKey));
+
+            if (!storedData || storedData.date !== now) {
+
+                localStorage.setItem(storageKey, JSON.stringify({ date: now, count: 0, keys: [] }));
+
+            }
 
     let selectedGame = null;
 
@@ -110,7 +126,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const gameChoice = parseInt(selectedGame);
         const game = games[gameChoice];
+        
+        const storageKey = `keys_generated_${game.name}`;
+        const storedData = JSON.parse(localStorage.getItem(storageKey));
 
+        if (storedData.count + keyCount > MAX_KEYS_PER_GAME_PER_DAY) {
+            alert(`You can generate only ${MAX_KEYS_PER_GAME_PER_DAY - storedData.count} more keys for ${game.name} today.`);
+            previousKeysList.innerHTML = storedData.keys.map(key =>
+                `<div class="key-item">
+                    <input type="text" value="${key}" readonly>
+                 </div>`
         // Hide the form sections
         document.querySelector('.grid-container').style.display = 'none';
         keyCountGroup.style.display = 'none';
