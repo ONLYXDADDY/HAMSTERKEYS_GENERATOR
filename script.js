@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const generatedKeysTitle = document.getElementById('generatedKeysTitle');
     const copyStatus = document.getElementById('copyStatus');
     const generateMoreBtn = document.getElementById('generateMoreBtn');
-    const telegramChannelBtn = document.getElementById('telegramChannelBtn');
+    const sourceCode = document.getElementById('sourceCode');
 
     let selectedGame = null;
 
@@ -317,13 +317,4 @@ document.addEventListener('DOMContentLoaded', () => {
             document.body.removeChild(textArea);
         }
     };
-    });
-document.getElementById('creatorChannelBtn').addEventListener('click', () => {
-        window.open('https://telegram.me/onlyxdaddy', '_blank');
-    });
-
-    telegramChannelBtn.addEventListener('click', () => {
-        window.open('https://telegram.me/onlyxcoding', '_blank');
-});
-    
 });
